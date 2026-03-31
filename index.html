@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onsprint. Print Shop Management Platform</title>
+  <meta name="description" content="The all-in-one platform for print shop management. Orders, production, payments, and your own online store.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ══ NAVBAR ══ -->
+  <nav class="nav" id="nav">
+    <div class="nav-pill">
+      <a href="#" class="nav-brand">
+        <div class="nav-logo-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1.5" fill="white"/><rect x="14" y="3" width="7" height="7" rx="1.5" fill="white" opacity=".7"/><rect x="3" y="14" width="7" height="7" rx="1.5" fill="white" opacity=".7"/><rect x="14" y="14" width="7" height="7" rx="1.5" fill="white" opacity=".4"/></svg>
+        </div>
+        Onsprint
+      </a>
+      <div class="nav-links">
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact us</a>
+      </div>
+      <a href="/register" class="nav-cta">Get started</a>
+    </div>
+  </nav>
+
+  <!-- ══ HERO ══ -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1 class="hero-title">Strategy and growth for print shops</h1>
+        <p class="hero-desc">Onsprint partners with print shops to streamline operations, elevate team performance, and build a foundation for lasting success.</p>
+        <div class="hero-btns">
+          <a href="/register" class="btn-dark">Get started</a>
+          <a href="#features" class="btn-outline-dark">Contact us</a>
+        </div>
+        <div class="trust-badges">
+          <span class="trust-badge">✓ No credit card required</span>
+          <span class="trust-badge">✓ Setup in 5 minutes</span>
+          <span class="trust-badge">✓ Cancel anytime</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <!-- Orders Card -->
+        <div class="hero-card hero-card-main">
+          <div class="hero-card-header">
+            <span class="hero-card-title">Recent Orders</span>
+            <span class="hero-card-sort">Sort by Newest ▾</span>
+          </div>
+          <div class="hero-card-row hero-card-row-active">
+            <div class="hero-card-avatar">AR</div>
+            <div class="hero-card-info">
+              <div class="hero-card-name">Ahmad Razali</div>
+              <div class="hero-card-company">ORD0024 · Business Cards x500</div>
+            </div>
+            <div class="hero-card-actions">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2"><circle cx="12" cy="5" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="12" cy="19" r="1"/></svg>
+            </div>
+          </div>
+          <div class="hero-card-row">
+            <div class="hero-card-avatar" style="opacity:.8">SN</div>
+            <div class="hero-card-info">
+              <div class="hero-card-name">Siti Nurhaliza</div>
+              <div class="hero-card-company">ORD0023 · Flyer A3 x200</div>
+            </div>
+          </div>
+          <div class="hero-card-row">
+            <div class="hero-card-avatar" style="opacity:.6">LM</div>
+            <div class="hero-card-info">
+              <div class="hero-card-name">Lee Min Wei</div>
+              <div class="hero-card-company">ORD0022 · Banner 6ft x2</div>
+            </div>
+          </div>
+          <div class="hero-card-footer">
+            All orders
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </div>
+        </div>
+        <!-- Revenue Mini Card -->
+        <div class="hero-card hero-card-stats">
+          <div class="hero-stats-header">
+            <span>Monthly Revenue</span>
+            <span class="hero-stats-change">+12% this month</span>
+          </div>
+          <div class="hero-stats-value">RM 48,250</div>
+          <div class="hero-stats-chart">
+            <div class="bar-group"><div class="bar bar-blue" style="height:30px"></div><div class="bar bar-light" style="height:12px"></div></div>
+            <div class="bar-group"><div class="bar bar-blue" style="height:42px"></div><div class="bar bar-light" style="height:16px"></div></div>
+            <div class="bar-group"><div class="bar bar-blue" style="height:36px"></div><div class="bar bar-light" style="height:14px"></div></div>
+            <div class="bar-group"><div class="bar bar-blue" style="height:55px"></div><div class="bar bar-light" style="height:20px"></div></div>
+            <div class="bar-group"><div class="bar bar-blue" style="height:48px"></div><div class="bar bar-light" style="height:18px"></div></div>
+            <div class="bar-group"><div class="bar bar-blue" style="height:40px"></div><div class="bar bar-light" style="height:15px"></div></div>
+            <div class="bar-group"><div class="bar bar-blue" style="height:60px"></div><div class="bar bar-light" style="height:22px"></div></div>
+          </div>
+          <div class="hero-stats-days">
+            <span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══ STATS BAR ══ -->
+  <section class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stats-item reveal">
+          <div class="stats-number">500+</div>
+          <div class="stats-label">Print Shops</div>
+        </div>
+        <div class="stats-divider"></div>
+        <div class="stats-item reveal">
+          <div class="stats-number">50K+</div>
+          <div class="stats-label">Orders Managed</div>
+        </div>
+        <div class="stats-divider"></div>
+        <div class="stats-item reveal">
+          <div class="stats-number">RM 2M+</div>
+          <div class="stats-label">Revenue Processed</div>
+        </div>
+        <div class="stats-divider"></div>
+        <div class="stats-item reveal">
+          <div class="stats-number">99.9%</div>
+          <div class="stats-label">Uptime</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ HOW IT WORKS ══ -->
+  <section class="section">
+    <div class="container" style="text-align:center">
+      <div class="reveal">
+        <span class="tag">How it works</span>
+        <h2 class="section-heading" style="margin-bottom:48px">Get started in 3 simple steps</h2>
+      </div>
+      <div class="steps-cards">
+        <div class="step-card reveal">
+          <div class="step-card-num">01</div>
+          <h3 class="step-card-title">Create your account</h3>
+          <p class="step-card-desc">Sign up for free in 30 seconds. No credit card needed. Just your email and you're in.</p>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-card-num">02</div>
+          <h3 class="step-card-title">Set up your shop</h3>
+          <p class="step-card-desc">Add your products, customize your store, and invite your team. Our checklist guides you through.</p>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-card-num">03</div>
+          <h3 class="step-card-title">Start growing</h3>
+          <p class="step-card-desc">Take orders, manage production, and watch your revenue grow. all from one dashboard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ APP PREVIEW (Full Dashboard Mockup) ══ -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="reveal">
+        <div class="dashboard-mockup reveal-scale">
+          <!-- Sidebar -->
+          <div class="dm-sidebar">
+            <div class="dm-sidebar-brand">
+              <div class="dm-sidebar-logo">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1.5" fill="white"/><rect x="14" y="3" width="7" height="7" rx="1.5" fill="white" opacity=".7"/><rect x="3" y="14" width="7" height="7" rx="1.5" fill="white" opacity=".7"/><rect x="14" y="14" width="7" height="7" rx="1.5" fill="white" opacity=".4"/></svg>
+              </div>
+              <span>Onsprint</span>
+            </div>
+            <div class="dm-sidebar-nav">
+              <div class="dm-nav-item active">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                Dashboard
+              </div>
+              <div class="dm-nav-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
+                Orders
+              </div>
+              <div class="dm-nav-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                Customers
+              </div>
+              <div class="dm-nav-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+                Payments
+              </div>
+              <div class="dm-nav-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/></svg>
+                Products
+              </div>
+              <div class="dm-nav-section">Production</div>
+              <div class="dm-nav-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                Printing Board
+              </div>
+            </div>
+            <div class="dm-sidebar-user">
+              <div class="dm-sidebar-avatar">AR</div>
+              <div>
+                <div class="dm-sidebar-username">Ahmad R.</div>
+                <div class="dm-sidebar-email">ahmad@printhub.my</div>
+              </div>
+            </div>
+          </div>
+          <!-- Main Content -->
+          <div class="dm-main">
+            <!-- Topbar -->
+            <div class="dm-topbar">
+              <div class="dm-search">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <span>Search...</span>
+                <span class="dm-search-kbd">⌘K</span>
+              </div>
+              <div class="dm-topbar-right">
+                <div class="dm-topbar-icon">🌙</div>
+                <div class="dm-topbar-icon">🔔<span class="dm-notif-dot"></span></div>
+              </div>
+            </div>
+            <!-- Page Header -->
+            <div class="dm-page">
+              <div class="dm-page-header">
+                <div>
+                  <div class="dm-page-title">Dashboard</div>
+                  <div class="dm-page-sub">Welcome back. 24 orders · 3 active</div>
+                </div>
+              </div>
+              <!-- Hero Card -->
+              <div class="dm-hero-card">
+                <div class="dm-hero-left">
+                  <div class="dm-hero-label">Total Revenue</div>
+                  <div class="dm-hero-amount">RM 48,250.00</div>
+                </div>
+                <div class="dm-hero-actions">
+                  <button class="dm-hero-btn primary">+ New Order</button>
+                  <button class="dm-hero-btn">View Orders</button>
+                </div>
+              </div>
+              <!-- Stat Cards -->
+              <div class="dm-stat-grid">
+                <div class="dm-stat">
+                  <div class="dm-stat-header">
+                    <span class="dm-stat-label">Active Orders</span>
+                    <span class="dm-stat-period">Live</span>
+                  </div>
+                  <div class="dm-stat-value">3</div>
+                  <div class="dm-stat-sub">of 24 total</div>
+                </div>
+                <div class="dm-stat">
+                  <div class="dm-stat-header">
+                    <span class="dm-stat-label">Online Revenue</span>
+                    <span class="dm-stat-period">30 days</span>
+                  </div>
+                  <div class="dm-stat-value">RM 12,400</div>
+                  <div class="dm-stat-sub">8 online orders</div>
+                </div>
+                <div class="dm-stat">
+                  <div class="dm-stat-header">
+                    <span class="dm-stat-label">Low Stock</span>
+                    <span class="dm-stat-period">Alert</span>
+                  </div>
+                  <div class="dm-stat-value">2</div>
+                  <div class="dm-stat-sub">items need restock</div>
+                </div>
+              </div>
+              <!-- Chart + Recent Orders -->
+              <div class="dm-bottom-grid">
+                <div class="dm-chart-card">
+                  <div class="dm-chart-header">
+                    <span>Revenue & Expenses</span>
+                    <span class="dm-chart-tabs">
+                      <span class="dm-chart-tab active">Weekly</span>
+                      <span class="dm-chart-tab">Daily</span>
+                    </span>
+                  </div>
+                  <div class="dm-chart-bars">
+                    <div class="dm-bar" style="height:35px"></div>
+                    <div class="dm-bar" style="height:50px"></div>
+                    <div class="dm-bar" style="height:42px"></div>
+                    <div class="dm-bar" style="height:65px"></div>
+                    <div class="dm-bar" style="height:55px"></div>
+                    <div class="dm-bar" style="height:48px"></div>
+                    <div class="dm-bar" style="height:70px"></div>
+                    <div class="dm-bar" style="height:60px"></div>
+                    <div class="dm-bar" style="height:45px"></div>
+                    <div class="dm-bar" style="height:58px"></div>
+                  </div>
+                </div>
+                <div class="dm-orders-card">
+                  <div class="dm-orders-header">Recent Orders</div>
+                  <div class="dm-order-row">
+                    <div class="dm-order-id">ORD0024</div>
+                    <div class="dm-order-customer">Ahmad R.</div>
+                    <div class="dm-order-amount">RM 450</div>
+                    <span class="dm-badge blue">Confirmed</span>
+                  </div>
+                  <div class="dm-order-row">
+                    <div class="dm-order-id">ORD0023</div>
+                    <div class="dm-order-customer">Siti N.</div>
+                    <div class="dm-order-amount">RM 1,200</div>
+                    <span class="dm-badge amber">Pending</span>
+                  </div>
+                  <div class="dm-order-row">
+                    <div class="dm-order-id">ORD0022</div>
+                    <div class="dm-order-customer">Lee M.</div>
+                    <div class="dm-order-amount">RM 680</div>
+                    <span class="dm-badge blue">Confirmed</span>
+                  </div>
+                  <div class="dm-order-row">
+                    <div class="dm-order-id">ORD0021</div>
+                    <div class="dm-order-customer">Farah A.</div>
+                    <div class="dm-order-amount">RM 320</div>
+                    <span class="dm-badge green">Completed</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ NUMBERED FEATURES ══ -->
+  <section class="section">
+    <div class="container">
+      <div class="num-grid">
+        <!-- 01 - Onboarding mockup -->
+        <div class="num-item reveal">
+          <div class="num-label">01</div>
+          <div class="num-img">
+            <div class="num-mini-app">
+              <div class="num-mini-row"><span class="num-mini-check done"></span><span>Add your first product</span></div>
+              <div class="num-mini-row"><span class="num-mini-check done"></span><span>Create your first order</span></div>
+              <div class="num-mini-row"><span class="num-mini-check"></span><span>Customize your store</span></div>
+              <div class="num-mini-row"><span class="num-mini-check"></span><span>Set up payments</span></div>
+              <div class="num-mini-progress"><div class="num-mini-progress-bar" style="width:50%"></div></div>
+            </div>
+          </div>
+          <h3 class="num-title">Easy setup</h3>
+          <p class="num-desc">Create your workspace and invite your team. Get everything ready in minutes.</p>
+        </div>
+        <!-- 02 - Kanban mockup -->
+        <div class="num-item reveal">
+          <div class="num-label">02</div>
+          <div class="num-img">
+            <div class="num-mini-app">
+              <div class="num-mini-header">Production Board</div>
+              <div class="num-mini-cols">
+                <div class="num-mini-col">
+                  <div class="num-mini-col-h">New</div>
+                  <div class="num-mini-card accent">Business Cards</div>
+                  <div class="num-mini-card">Flyer A3</div>
+                </div>
+                <div class="num-mini-col">
+                  <div class="num-mini-col-h">Printing</div>
+                  <div class="num-mini-card">Banner 6ft</div>
+                </div>
+                <div class="num-mini-col">
+                  <div class="num-mini-col-h">Done</div>
+                  <div class="num-mini-card">Poster A2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="num-title">Collaborate</h3>
+          <p class="num-desc">Assign tasks and keep communication clear. Everyone stays aligned.</p>
+        </div>
+        <!-- 03 - Analytics mockup -->
+        <div class="num-item reveal">
+          <div class="num-label">03</div>
+          <div class="num-img">
+            <div class="num-mini-app">
+              <div class="num-mini-header">Revenue</div>
+              <div class="num-mini-amount">RM 48,250</div>
+              <div class="num-mini-bars">
+                <div class="num-mini-bar" style="height:20px"></div>
+                <div class="num-mini-bar" style="height:30px"></div>
+                <div class="num-mini-bar" style="height:25px"></div>
+                <div class="num-mini-bar" style="height:40px"></div>
+                <div class="num-mini-bar" style="height:35px"></div>
+                <div class="num-mini-bar" style="height:45px"></div>
+                <div class="num-mini-bar" style="height:38px"></div>
+              </div>
+            </div>
+          </div>
+          <h3 class="num-title">Track growth</h3>
+          <p class="num-desc">Use dashboards to monitor progress, trends, and what matters most.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ BUILT FOR HIGH PERFORMANCE ══ -->
+  <section class="section">
+    <div class="container" style="text-align:center">
+      <h2 class="perf-title reveal">Built for high performance</h2>
+      <p class="perf-subtitle reveal">Onsprint gives your team everything it needs to stay aligned, track performance, and scale with confidence. all in one place.</p>
+      <!-- Tab pills -->
+      <div class="perf-tabs reveal">
+        <button class="perf-tab active" data-tab="portal">Order management</button>
+        <button class="perf-tab" data-tab="api">Production board</button>
+        <button class="perf-tab" data-tab="workflow">Online store</button>
+        <button class="perf-tab" data-tab="team">Team management</button>
+      </div>
+    </div>
+    <!-- Feature Details (one per tab) -->
+    <div class="perf-detail">
+      <div class="container">
+        <!-- Order Management -->
+        <div class="perf-detail-grid reveal perf-panel active" data-panel="portal">
+          <div class="perf-detail-card">
+            <div class="perf-detail-card-header">Recent Orders</div>
+            <div class="perf-detail-card-row active">
+              <div class="perf-detail-avatar">AR</div>
+              <div>
+                <div class="perf-detail-name">ORD0024 · Ahmad R.</div>
+                <div class="perf-detail-sub">Business Cards x500 · RM 450</div>
+              </div>
+            </div>
+            <div class="perf-detail-card-row">
+              <div class="perf-detail-avatar" style="opacity:.7">SN</div>
+              <div>
+                <div class="perf-detail-name">ORD0023 · Siti N.</div>
+                <div class="perf-detail-sub">Flyer A3 x200 · RM 1,200</div>
+              </div>
+            </div>
+            <div class="perf-detail-card-row">
+              <div class="perf-detail-avatar" style="opacity:.5">LM</div>
+              <div>
+                <div class="perf-detail-name">ORD0022 · Lee M.</div>
+                <div class="perf-detail-sub">Banner 6ft x2 · RM 680</div>
+              </div>
+            </div>
+          </div>
+          <div class="perf-detail-text">
+            <div class="perf-detail-label">ORDER MANAGEMENT</div>
+            <h3 class="perf-detail-heading">Manage orders from quote to delivery</h3>
+            <p class="perf-detail-desc">Create orders, track production status, generate invoices, and manage payments. all from one dashboard. Auto-generated IDs keep everything organized.</p>
+          </div>
+        </div>
+        <!-- Production Board -->
+        <div class="perf-detail-grid perf-panel" data-panel="api">
+          <div class="perf-detail-card">
+            <div class="perf-detail-card-header">Production Board</div>
+            <div class="perf-detail-card-row active">
+              <div class="perf-detail-avatar">01</div>
+              <div>
+                <div class="perf-detail-name">Business Cards x500</div>
+                <div class="perf-detail-sub">Artwork Checking → Printing</div>
+              </div>
+            </div>
+            <div class="perf-detail-card-row">
+              <div class="perf-detail-avatar" style="opacity:.7">02</div>
+              <div>
+                <div class="perf-detail-name">Flyer A3 x200</div>
+                <div class="perf-detail-sub">Ready to Print</div>
+              </div>
+            </div>
+            <div class="perf-detail-card-row">
+              <div class="perf-detail-avatar" style="opacity:.5">03</div>
+              <div>
+                <div class="perf-detail-name">Banner 6ft x2</div>
+                <div class="perf-detail-sub">QC → Ready to Pickup</div>
+              </div>
+            </div>
+          </div>
+          <div class="perf-detail-text">
+            <div class="perf-detail-label">PRODUCTION BOARD</div>
+            <h3 class="perf-detail-heading">Track every job through your pipeline</h3>
+            <p class="perf-detail-desc">Kanban-style board with 12 production stages. Drag cards from artwork checking to delivery. Your team always knows what's next.</p>
+          </div>
+        </div>
+        <!-- Online Store -->
+        <div class="perf-detail-grid perf-panel" data-panel="workflow">
+          <div class="perf-detail-card">
+            <div class="perf-detail-card-header">Store Analytics</div>
+            <div class="perf-detail-card-row active">
+              <div class="perf-detail-avatar">📊</div>
+              <div>
+                <div class="perf-detail-name">Online Orders Today</div>
+                <div class="perf-detail-sub">12 orders · RM 3,400</div>
+              </div>
+            </div>
+            <div class="perf-detail-card-row">
+              <div class="perf-detail-avatar" style="opacity:.7;font-size:14px">👥</div>
+              <div>
+                <div class="perf-detail-name">Store Visitors</div>
+                <div class="perf-detail-sub">89 today · 340 this week</div>
+              </div>
+            </div>
+            <div class="perf-detail-card-row">
+              <div class="perf-detail-avatar" style="opacity:.5;font-size:14px">🛒</div>
+              <div>
+                <div class="perf-detail-name">Cart Conversion</div>
+                <div class="perf-detail-sub">68% checkout rate</div>
+              </div>
+            </div>
+          </div>
+          <div class="perf-detail-text">
+            <div class="perf-detail-label">ONLINE STORE</div>
+            <h3 class="perf-detail-heading">Your own branded storefront</h3>
+            <p class="perf-detail-desc">Customers browse products, upload artwork, and place orders 24/7. Fully customizable with your logo, colors, and domain.</p>
+          </div>
+        </div>
+        <!-- Team Management -->
+        <div class="perf-detail-grid perf-panel" data-panel="team">
+          <div class="perf-detail-card">
+            <div class="perf-detail-card-header">Team Members</div>
+            <div class="perf-detail-card-row active">
+              <div class="perf-detail-avatar">AR</div>
+              <div>
+                <div class="perf-detail-name">Ahmad R. · Owner</div>
+                <div class="perf-detail-sub">Full access</div>
+              </div>
+            </div>
+            <div class="perf-detail-card-row">
+              <div class="perf-detail-avatar" style="opacity:.7">FK</div>
+              <div>
+                <div class="perf-detail-name">Farah K. · Designer</div>
+                <div class="perf-detail-sub">Orders, Production</div>
+              </div>
+            </div>
+            <div class="perf-detail-card-row">
+              <div class="perf-detail-avatar" style="opacity:.5">DL</div>
+              <div>
+                <div class="perf-detail-name">Daniel L. · Operator</div>
+                <div class="perf-detail-sub">Production only</div>
+              </div>
+            </div>
+          </div>
+          <div class="perf-detail-text">
+            <div class="perf-detail-label">TEAM MANAGEMENT</div>
+            <h3 class="perf-detail-heading">Role-based access for your team</h3>
+            <p class="perf-detail-desc">Invite team members and assign permissions. Each person sees only what they need. designers see artwork, operators see production, owners see everything.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PRICING ══ -->
+  <section class="section" id="pricing">
+    <div class="container" style="text-align:center">
+      <div class="reveal">
+        <h2 class="section-heading">Flexible pricing</h2>
+        <p class="section-sub">Start free, upgrade when you're ready. No hidden fees.</p>
+        <!-- Billing toggle -->
+        <div class="billing-toggle">
+          <span class="billing-label" id="billing-monthly-label">Monthly</span>
+          <button class="billing-switch" id="billing-switch" onclick="toggleBilling()">
+            <span class="billing-knob"></span>
+          </button>
+          <span class="billing-label" id="billing-annual-label">Annual <span class="billing-save">Save 2 months</span></span>
+        </div>
+      </div>
+      <div class="price-grid price-grid-4 reveal-scale">
+        <!-- Free -->
+        <div class="price-card">
+          <div class="price-card-name">Free</div>
+          <div class="price-card-amount" data-monthly="RM 0" data-annual="RM 0" data-monthly-sub="/ forever" data-annual-sub="/ forever">RM 0 <span>/ forever</span></div>
+          <p class="price-card-desc">Get started with the essentials. no credit card required</p>
+          <a href="/register" class="btn-outline-dark btn-full">Start free</a>
+          <ul class="price-card-list">
+            <li>✓ 50 orders/month</li>
+            <li>✓ Production board</li>
+            <li>✓ Online proofing</li>
+            <li>✓ 30 customers</li>
+            <li>✓ 1 team member</li>
+          </ul>
+        </div>
+        <!-- Starter -->
+        <div class="price-card">
+          <div class="price-card-name">Starter</div>
+          <div class="price-card-amount" data-monthly="RM 199" data-annual="RM 166" data-annual-total="RM 1,990" data-monthly-sub="/ mo" data-annual-sub="/ mo">RM 199 <span>/ mo</span></div>
+          <p class="price-card-desc">Launch your online store and start accepting orders</p>
+          <a href="/register" class="btn-outline-dark btn-full">Get started</a>
+          <ul class="price-card-list">
+            <li>✓ Everything in Free</li>
+            <li>✓ Online store (20 products)</li>
+            <li>✓ 3 team members</li>
+            <li>✓ File upload from customers</li>
+            <li>✓ Customer portal</li>
+            <li>✓ Payment integration</li>
+            <li class="price-card-fee">1% + RM 2 platform fee</li>
+          </ul>
+        </div>
+        <!-- Growth -->
+        <div class="price-card price-card-popular">
+          <div class="price-card-badge">MOST POPULAR</div>
+          <div class="price-card-name" style="color:#60a5fa">Growth</div>
+          <div class="price-card-amount" data-monthly="RM 399" data-annual="RM 332" data-annual-total="RM 3,990" data-monthly-sub="/ mo" data-annual-sub="/ mo">RM 399 <span>/ mo</span></div>
+          <p class="price-card-desc">Scale your team and agent network</p>
+          <a href="/register" class="btn-dark btn-full">Get started</a>
+          <ul class="price-card-list">
+            <li>✓ Everything in Starter</li>
+            <li>✓ Online store (50 products)</li>
+            <li>✓ Agent topup system</li>
+            <li>✓ Agent portal (online store)</li>
+            <li>✓ 10 team members</li>
+            <li>✓ Payment integration</li>
+            <li class="price-card-fee">1% + RM 1.20 platform fee</li>
+          </ul>
+        </div>
+        <!-- Pro -->
+        <div class="price-card">
+          <div class="price-card-name">Pro</div>
+          <div class="price-card-amount" data-monthly="RM 599" data-annual="RM 499" data-annual-total="RM 5,990" data-monthly-sub="/ mo" data-annual-sub="/ mo">RM 599 <span>/ mo</span></div>
+          <p class="price-card-desc">Everything unlocked for serious operations</p>
+          <a href="/register" class="btn-outline-dark btn-full">Get started</a>
+          <ul class="price-card-list">
+            <li>✓ Everything in Growth</li>
+            <li>✓ Affiliate system</li>
+            <li>✓ 20 team members</li>
+            <li>✓ Unlimited products</li>
+            <li>✓ All features included</li>
+            <li class="price-card-fee">1.5% platform fee only</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══ TESTIMONIALS ══ -->
+  <section class="section">
+    <div class="container">
+      <div class="testi-grid">
+        <div class="testi-item reveal">
+          <p class="testi-text">"Onsprint helped us streamline our operations and scale faster than we imagined. Their mix of strategy and execution is unmatched."</p>
+          <div class="testi-author">
+            <div class="testi-info">
+              <div class="testi-name">Ahmad Razali</div>
+              <div class="testi-role">Owner at PrintHub KL</div>
+            </div>
+            <div class="testi-avatar" style="background:#006AFF">AR</div>
+          </div>
+        </div>
+        <div class="testi-item reveal">
+          <p class="testi-text">"Working with Onsprint felt like having an extension of our team. They understood our challenges and delivered real, measurable results."</p>
+          <div class="testi-author">
+            <div class="testi-info">
+              <div class="testi-name">Siti Nurhaliza</div>
+              <div class="testi-role">Manager at QuickPrint JB</div>
+            </div>
+            <div class="testi-avatar" style="background:#006AFF;opacity:.7">SN</div>
+          </div>
+        </div>
+        <div class="testi-item reveal">
+          <p class="testi-text">"From the first meeting, Onsprint brought clarity and momentum to our production strategy. We've seen a major improvement in team performance."</p>
+          <div class="testi-author">
+            <div class="testi-info">
+              <div class="testi-name">Lee Min Wei</div>
+              <div class="testi-role">Owner at DesignWorks PJ</div>
+            </div>
+            <div class="testi-avatar" style="background:#006AFF;opacity:.5">LM</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FAQ ══ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="faq-grid">
+        <div class="faq-left reveal">
+          <h2 class="faq-title">Your questions, answered</h2>
+          <p class="faq-desc">Get quick answers to the most common questions about our platform and services.</p>
+          <a href="#" class="btn-outline-dark" style="margin-top:20px">Contact us</a>
+        </div>
+        <div class="faq-right reveal">
+          <div class="faq-item">
+            <button class="faq-q">What types of print shops do you work with? <span class="faq-icon">+</span></button>
+            <div class="faq-a"><p>We work with all types. digital printing, offset, large format, apparel, and packaging. Whether you're a one-person shop or a multi-branch operation.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">How long does it take to see results? <span class="faq-icon">+</span></button>
+            <div class="faq-a"><p>Most shops see a noticeable improvement within 2 to 3 weeks. Full onboarding takes about 30 minutes.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">Can Onsprint integrate with my existing tools? <span class="faq-icon">+</span></button>
+            <div class="faq-a"><p>Yes. We integrate with Stripe for card payments, Billplz for FPX bank transfers, and Google for sign-in. More integrations are coming soon.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">Do you offer one-time setup or ongoing support? <span class="faq-icon">+</span></button>
+            <div class="faq-a"><p>Both! You can use Onsprint as a self-serve platform or get ongoing support from our team.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">What does onboarding look like? <span class="faq-icon">+</span></button>
+            <div class="faq-a"><p>We guide you through product setup, importing data, inviting your team, and customizing your online store. Most shops are live within an hour.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CTA ══ -->
+  <section class="cta-section" id="contact">
+    <div class="container" style="text-align:center;position:relative;z-index:1">
+      <div class="reveal">
+        <h2 class="cta-heading">Ready to streamline your print shop?</h2>
+        <p class="cta-sub">Join 500+ print shops already using Onsprint. Start free, no credit card required.</p>
+        <div class="cta-actions">
+          <a href="/register" class="btn-cta-primary">Get started free</a>
+          <a href="pricing.html" class="btn-cta-secondary">View pricing</a>
+        </div>
+        <div class="cta-trust">
+          <span>✓ No credit card</span>
+          <span>✓ 5 min setup</span>
+          <span>✓ Cancel anytime</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="footer-new">
+    <div class="container">
+      <div class="footer-new-top">
+        <div class="footer-new-brand">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
+            <div class="nav-logo-icon" style="width:26px;height:26px;border-radius:6px">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" rx="1.5" fill="white"/><rect x="14" y="3" width="7" height="7" rx="1.5" fill="white" opacity=".7"/><rect x="3" y="14" width="7" height="7" rx="1.5" fill="white" opacity=".7"/><rect x="14" y="14" width="7" height="7" rx="1.5" fill="white" opacity=".4"/></svg>
+            </div>
+            <span style="font-size:15px;font-weight:800">Onsprint</span>
+          </div>
+          <p style="font-size:13px;color:#94a3b8;line-height:1.65;max-width:280px">The all-in-one platform for print shop management. Built in Malaysia, for Malaysia.</p>
+        </div>
+        <div class="footer-new-links">
+          <div class="footer-new-col">
+            <div class="footer-new-col-title">Product</div>
+            <a href="features.html">Features</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="/register">Get Started</a>
+          </div>
+          <div class="footer-new-col">
+            <div class="footer-new-col-title">Support</div>
+            <a href="contact.html">Contact</a>
+            <a href="pricing.html#faq">FAQ</a>
+          </div>
+          <div class="footer-new-col">
+            <div class="footer-new-col-title">Legal</div>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-new-bottom">
+        <span>Copyright &copy; 2026 Onsprint. All rights reserved.</span>
+        <div class="footer-new-socials">
+          <a href="#" aria-label="Twitter"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
